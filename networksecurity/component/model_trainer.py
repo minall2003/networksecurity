@@ -25,8 +25,9 @@ from sklearn.ensemble import (
 )
 import mlflow
 import mlflow.sklearn
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
-mlflow.set_experiment("NetworkSecurityExperiment")
+
+import dagshub
+dagshub.init(repo_owner='minall2003', repo_name='networksecurity', mlflow=True)
 
 
 
@@ -122,7 +123,7 @@ class ModelTrainer:
         Network_Model=NetworkModel(preprocessor=preprocessor,model=best_model)
         save_object(self.model_trainer_config.trained_model_file_path,obj=Network_Model)
         
-        
+        save_object("final_model/model.pkl", best_model)
         
 
         ## Model Trainer Artifact
