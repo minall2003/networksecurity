@@ -1,6 +1,0 @@
-[2026-03-19 11:59:07,414] 1025httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2026-03-19 11:59:07,419] 107dagshub - INFO - Accessing as minall2003
-[2026-03-19 11:59:08,968] 1025httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/minall2003/networksecurity "HTTP/1.1 200 OK"
-[2026-03-19 11:59:09,721] 1025httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2026-03-19 11:59:09,724] 107dagshub - INFO - Initialized MLflow to track repo "minall2003/networksecurity"
-[2026-03-19 11:59:09,725] 107dagshub - INFO - Repository minall2003/networksecurity initialized!
